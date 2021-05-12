@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-dataset = pd.read_csv("/Users/vaish/OneDrive/Desktop/Wild Blueberry-Yield-Predictor/BlueberryDataset.csv")
+dataset = pd.read_csv("BlueberryDataset.csv")
 dataset = dataset.drop(columns='Row#')
 
 X = dataset.drop(columns=['yield'])
