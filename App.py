@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import sklearn
+import numpy
 import pandas
 
 rf = joblib.load('randomforest.joblib')
